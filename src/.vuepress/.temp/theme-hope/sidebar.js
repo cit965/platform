@@ -1,1 +1,1 @@
-export const sidebarData = {"/demo/":["page","markdown","disable","encrypt"],"/guide/":["",{"text":"1.理论","prefix":"1.理论/","collapsible":true,"children":["white-paper","maturity"]},{"text":"2.产品","prefix":"2.产品/","collapsible":true,"children":["kubevela"]}]};
+export const sidebarData = {"/demo/":["page","markdown","disable","encrypt"],"/guide/":["",{"text":"理论基础","prefix":"bar/","collapsible":true,"icon":"lightbulb","children":["","white-paper","maturity"]}]};
