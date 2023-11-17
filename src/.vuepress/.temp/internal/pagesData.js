@@ -15,16 +15,16 @@ export const pagesData = {
   "v-6e19edb7": () => import(/* webpackChunkName: "v-6e19edb7" */"/Users/z/code/platform/src/.vuepress/.temp/pages/demo/page.html.js").then(({ data }) => data),
   // path: /guide/
   "v-fffb8e28": () => import(/* webpackChunkName: "v-fffb8e28" */"/Users/z/code/platform/src/.vuepress/.temp/pages/guide/index.html.js").then(({ data }) => data),
-  // path: /guide/bar/
-  "v-5d5c2d30": () => import(/* webpackChunkName: "v-5d5c2d30" */"/Users/z/code/platform/src/.vuepress/.temp/pages/guide/bar/index.html.js").then(({ data }) => data),
-  // path: /guide/bar/maturity.html
-  "v-39911380": () => import(/* webpackChunkName: "v-39911380" */"/Users/z/code/platform/src/.vuepress/.temp/pages/guide/bar/maturity.html.js").then(({ data }) => data),
-  // path: /guide/bar/white-paper.html
-  "v-46c4074e": () => import(/* webpackChunkName: "v-46c4074e" */"/Users/z/code/platform/src/.vuepress/.temp/pages/guide/bar/white-paper.html.js").then(({ data }) => data),
-  // path: /guide/product/
-  "v-6ce743e8": () => import(/* webpackChunkName: "v-6ce743e8" */"/Users/z/code/platform/src/.vuepress/.temp/pages/guide/product/index.html.js").then(({ data }) => data),
-  // path: /guide/product/kubevela.html
-  "v-029e63dc": () => import(/* webpackChunkName: "v-029e63dc" */"/Users/z/code/platform/src/.vuepress/.temp/pages/guide/product/kubevela.html.js").then(({ data }) => data),
+  // path: /guide/1.%E7%90%86%E8%AE%BA/maturity.html
+  "v-3166d577": () => import(/* webpackChunkName: "v-3166d577" */"/Users/z/code/platform/src/.vuepress/.temp/pages/guide/1.理论/maturity.html.js").then(({ data }) => data),
+  // path: /guide/1.%E7%90%86%E8%AE%BA/white-paper.html
+  "v-9e5639fc": () => import(/* webpackChunkName: "v-9e5639fc" */"/Users/z/code/platform/src/.vuepress/.temp/pages/guide/1.理论/white-paper.html.js").then(({ data }) => data),
+  // path: /guide/2.%E4%BA%A7%E5%93%81/kubevela.html
+  "v-62bd30ca": () => import(/* webpackChunkName: "v-62bd30ca" */"/Users/z/code/platform/src/.vuepress/.temp/pages/guide/2.产品/kubevela.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"/Users/z/code/platform/src/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
+  // path: /guide/1.%E7%90%86%E8%AE%BA/
+  "v-31d57bde": () => import(/* webpackChunkName: "v-31d57bde" */"/Users/z/code/platform/src/.vuepress/.temp/pages/guide/1.理论/index.html.js").then(({ data }) => data),
+  // path: /guide/2.%E4%BA%A7%E5%93%81/
+  "v-8405b344": () => import(/* webpackChunkName: "v-8405b344" */"/Users/z/code/platform/src/.vuepress/.temp/pages/guide/2.产品/index.html.js").then(({ data }) => data),
 }
