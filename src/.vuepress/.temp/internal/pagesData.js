@@ -3,8 +3,6 @@ export const pagesData = {
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/z/code/platform/src/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
   // path: /slides.html
   "v-2e3eac9e": () => import(/* webpackChunkName: "v-2e3eac9e" */"/Users/z/code/platform/src/.vuepress/.temp/pages/slides.html.js").then(({ data }) => data),
-  // path: /guide/
-  "v-fffb8e28": () => import(/* webpackChunkName: "v-fffb8e28" */"/Users/z/code/platform/src/.vuepress/.temp/pages/guide/index.html.js").then(({ data }) => data),
   // path: /demo/
   "v-1473bf53": () => import(/* webpackChunkName: "v-1473bf53" */"/Users/z/code/platform/src/.vuepress/.temp/pages/demo/index.html.js").then(({ data }) => data),
   // path: /demo/disable.html
@@ -15,12 +13,18 @@ export const pagesData = {
   "v-438ffe52": () => import(/* webpackChunkName: "v-438ffe52" */"/Users/z/code/platform/src/.vuepress/.temp/pages/demo/markdown.html.js").then(({ data }) => data),
   // path: /demo/page.html
   "v-6e19edb7": () => import(/* webpackChunkName: "v-6e19edb7" */"/Users/z/code/platform/src/.vuepress/.temp/pages/demo/page.html.js").then(({ data }) => data),
+  // path: /guide/
+  "v-fffb8e28": () => import(/* webpackChunkName: "v-fffb8e28" */"/Users/z/code/platform/src/.vuepress/.temp/pages/guide/index.html.js").then(({ data }) => data),
   // path: /guide/bar/
   "v-5d5c2d30": () => import(/* webpackChunkName: "v-5d5c2d30" */"/Users/z/code/platform/src/.vuepress/.temp/pages/guide/bar/index.html.js").then(({ data }) => data),
   // path: /guide/bar/maturity.html
   "v-39911380": () => import(/* webpackChunkName: "v-39911380" */"/Users/z/code/platform/src/.vuepress/.temp/pages/guide/bar/maturity.html.js").then(({ data }) => data),
   // path: /guide/bar/white-paper.html
   "v-46c4074e": () => import(/* webpackChunkName: "v-46c4074e" */"/Users/z/code/platform/src/.vuepress/.temp/pages/guide/bar/white-paper.html.js").then(({ data }) => data),
+  // path: /guide/product/
+  "v-6ce743e8": () => import(/* webpackChunkName: "v-6ce743e8" */"/Users/z/code/platform/src/.vuepress/.temp/pages/guide/product/index.html.js").then(({ data }) => data),
+  // path: /guide/product/kubevela.html
+  "v-029e63dc": () => import(/* webpackChunkName: "v-029e63dc" */"/Users/z/code/platform/src/.vuepress/.temp/pages/guide/product/kubevela.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"/Users/z/code/platform/src/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
 }
