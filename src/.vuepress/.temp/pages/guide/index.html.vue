@@ -1,13 +1,7 @@
-<template><div><h2 id="功能亮点" tabindex="-1"><a class="header-anchor" href="#功能亮点" aria-hidden="true">#</a> 功能亮点</h2>
-<h3 id="bar" tabindex="-1"><a class="header-anchor" href="#bar" aria-hidden="true">#</a> Bar</h3>
+<template><div><h3 id="平台工程理论基础" tabindex="-1"><a class="header-anchor" href="#平台工程理论基础" aria-hidden="true">#</a> 平台工程理论基础</h3>
 <ul>
-<li><RouterLink to="/guide/bar/baz.html">baz</RouterLink></li>
-<li>...</li>
-</ul>
-<h3 id="foo" tabindex="-1"><a class="header-anchor" href="#foo" aria-hidden="true">#</a> Foo</h3>
-<ul>
-<li><RouterLink to="/guide/foo/ray.html">ray</RouterLink></li>
-<li>...</li>
+<li><RouterLink to="/guide/bar/white-paper.html">白皮书</RouterLink></li>
+<li><RouterLink to="/guide/bar/white-paper.html">成熟度模型</RouterLink></li>
 </ul>
 </div></template>
 

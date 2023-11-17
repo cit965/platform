@@ -3,14 +3,9 @@ title: 指南
 icon: lightbulb
 ---
 
-## 功能亮点
 
-### Bar
+### 平台工程理论基础
 
-- [baz](bar/baz.md)
-- ...
+- [白皮书](bar/white-paper.md)
+- [成熟度模型](bar/white-paper.md)
 
-### Foo
-
-- [ray](foo/ray.md)
-- ...
