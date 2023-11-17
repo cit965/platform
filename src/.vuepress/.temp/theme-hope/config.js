@@ -1,13 +1,13 @@
 import { defineClientConfig } from "@vuepress/client";
-import { VPLink } from "/Users/z/code/citplatform/node_modules/vuepress-shared/lib/client/index.js";
+import { VPLink } from "/Users/z/code/platform/node_modules/vuepress-shared/lib/client/index.js";
 
-import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "/Users/z/code/citplatform/node_modules/vuepress-theme-hope/lib/bundle/export.js";
+import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "/Users/z/code/platform/node_modules/vuepress-theme-hope/lib/bundle/export.js";
 
-import { defineAutoCatalogIconComponent } from "/Users/z/code/citplatform/node_modules/vuepress-plugin-auto-catalog/lib/client/index.js"
-import { GlobalEncrypt, LocalEncrypt } from "/Users/z/code/citplatform/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
-import "/Users/z/code/citplatform/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
+import { defineAutoCatalogIconComponent } from "/Users/z/code/platform/node_modules/vuepress-plugin-auto-catalog/lib/client/index.js"
+import { GlobalEncrypt, LocalEncrypt } from "/Users/z/code/platform/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
+import "/Users/z/code/platform/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
 
-import "/Users/z/code/citplatform/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
+import "/Users/z/code/platform/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
 
 defineAutoCatalogIconComponent(HopeIcon);
 
