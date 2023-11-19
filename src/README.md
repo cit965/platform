@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: 项目主页
-heroImage: /logo.svg
+heroImage: /plat.png
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
@@ -10,7 +10,7 @@ bgImageStyle:
 heroText: Platform Enginering - china
 tagline: 中立的，非商业目的，以开放协作为中心的平台工程技术社区
 actions:
-  - text: 使用指南
+  - text: 项目实战
     icon: lightbulb
     link: ./demo/
     type: primary

@@ -1,5 +1,5 @@
 ---
-title: 布局与功能禁用
+title: 插件生态
 icon: gears
 order: 3
 category:

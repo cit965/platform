@@ -1,10 +1,10 @@
 ---
 # 这是文章的标题
-title: 页面配置
+title: 控制核心
 # 这是页面的图标
 icon: file
 # 这是侧边栏的顺序
-order: 1
+order: 2
 # 设置作者
 author: Ms.Hope
 # 设置写作时间

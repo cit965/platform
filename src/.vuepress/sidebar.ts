@@ -4,7 +4,7 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "案例",
+      text: "项目",
       icon: "laptop-code",
       prefix: "demo/",
       link: "demo/",
