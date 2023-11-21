@@ -13,7 +13,7 @@ export default sidebar({
     {
       text: "文档",
       icon: "book",
-      prefix: "guide/",
+      prefix: "doc/",
       children: "structure",
     },
     "slides",

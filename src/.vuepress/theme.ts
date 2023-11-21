@@ -14,9 +14,9 @@ export default hopeTheme({
     "/": {
 
       footer:
-        '主题使用 <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a> | <a href="https://mister-hope.com/about/site.html" target="_blank">关于网站</a>',
+        '做中国最好的云原生社区',
 
-      copyright: "基于 MIT 协议，© 2019-至今 Mr.Hope",
+      copyright: "© 2023-至今 中国平台工程社区",
 
       blog: {
         description: "k8s等开源项目贡献者，CNCF平台工程小组成员，云原生架构师",
@@ -25,15 +25,6 @@ export default hopeTheme({
           GitHub: "https://github.com/mouuii",
           BiliBili: "https://space.bilibili.com/630395917",
           Twitter: "https://twitter.com/binChou143590",
-          // QQ: "http://wpa.qq.com/msgrd?v=3&uin=1178522294&site=qq&menu=yes",
-          // Qzone: "https://1178522294.qzone.qq.com/",
-          // Gmail: "mailto:mister-hope@outlook.com",
-          // Zhihu: "https://www.zhihu.com/people/mister-hope",
-          // Steam: "https://steamcommunity.com/id/Mr-Hope/",
-          // Weibo: "https://weibo.com/misterhope",
-          // Gitee: "https://gitee.com/Mister-Hope",
-          // Twitter: "https://twitter.com/Mister_Hope",
-          // Telegram: "https://t.me/Mister_Hope",
         },
       },
     },

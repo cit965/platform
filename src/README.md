@@ -1,7 +1,7 @@
 ---
 home: true
 icon: home
-title: 关于
+title: 主页
 heroImage: /plat.png
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
@@ -16,7 +16,7 @@ actions:
     type: primary
 
   - text: 文档
-    link: ./guide/
+    link: ./doc/
 
 highlights:
   - header: 平台工程
