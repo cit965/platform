@@ -19,16 +19,17 @@ actions:
     link: ./guide/
 
 highlights:
-  - header: 应用交付
+  - header: 平台工程
     image: /assets/image/box.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
     highlights:
-      - title: 应用交付 TAG 专注于支持与交付云原生应用程序相关的项目和计划，包括构建、部署、管理和运营
-      - title: 收集云原生应用开发者、平台工程师和最终用户的反馈意见，并将其与该领域的项目分享，同时为最终用户提供指导和范例。
-      - title: 目前有两个活跃的工作组 平台工作组  制品工作组
-      - title: 每月第 1 和第 3 个星期三 16:00 UTC（转换为当地时间)
-      - title: 微信群（mouuii）
+      - title: 平台工程是设计和构建工具链和工作流的学科
+      - title: 这些工具链和工作流在云原生时代为软件工程组织提供自助服务功能
+      - title: 平台工程师提供一种集成产品，通常称为“内部开发人员平台”，涵盖应用程序整个生命周期的操作需求。
+      - title: 从DevOps的灰烬中：内部开发人员平台的兴起
+      - title: 开发人员应该能够端到端地部署和运行其应用和服务。“你建造它，你运行它”。真正的 DevOps
+      - title: 官方社区微信群（+mouuii）
 
   - header: 领域
     description: 目前有两个活跃的工作组 平台工作组  制品工作组
