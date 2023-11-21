@@ -11,14 +11,14 @@ docs:
     logo: https://waline.js.org/logo.png
     url: https://waline.js.org/
     repo: https://github.com/walinejs/waline
-    preview: https://wlbpic.sandload.com/course/9ca7e372ef712cd03fd65313a221124743d37b6d.jpeg
+    preview: https://img1.baidu.com/it/u=2404796828,3158324841&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=500
 
   - name: k8s入门10讲
     desc: 全网最通俗易懂的k8s入门课
     logo: https://innenu.com/logo.svg
     url: https://innenu.com
     repo: https://github.com/inNENU/resource/
-    preview: https://wlbpic.sandload.com/course/截屏2023-11-07 下午12.29.08.png
+    preview: https://img1.baidu.com/it/u=1880920965,3615296744&fm=253&fmt=auto&app=138&f=JPG?w=499&h=444
 
 ---
 
