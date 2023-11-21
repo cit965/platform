@@ -73,7 +73,7 @@ export default hopeTheme({
     // You should generate and use your own comment service
     comment: {
       provider: "Giscus",
-      repo: "cit965/platform-discuss",
+      repo: "cit965/platform",
       repoId: "R_kgDOKukSNA",
       category: "Announcements",
       categoryId: "DIC_kwDOKukSNM4CbHWF",
