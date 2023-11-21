@@ -6,8 +6,37 @@ export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "南哥",
+    url: "https://avatars.githubusercontent.com/u/49775493?v=4",
+  },
+
+  locales: {
+    "/": {
+
+      footer:
+        '主题使用 <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a> | <a href="https://mister-hope.com/about/site.html" target="_blank">关于网站</a>',
+
+      copyright: "基于 MIT 协议，© 2019-至今 Mr.Hope",
+
+      blog: {
+        description: "k8s等开源项目贡献者，CNCF平台工程小组成员，云原生架构师",
+        intro: "/about/",
+        medias: {
+          GitHub: "https://github.com/mouuii",
+          BiliBili: "https://space.bilibili.com/630395917",
+          Twitter: "https://twitter.com/binChou143590",
+          // QQ: "http://wpa.qq.com/msgrd?v=3&uin=1178522294&site=qq&menu=yes",
+          // Qzone: "https://1178522294.qzone.qq.com/",
+          // Gmail: "mailto:mister-hope@outlook.com",
+          // Zhihu: "https://www.zhihu.com/people/mister-hope",
+          // Steam: "https://steamcommunity.com/id/Mr-Hope/",
+          // Weibo: "https://weibo.com/misterhope",
+          // Gitee: "https://gitee.com/Mister-Hope",
+          // Twitter: "https://twitter.com/Mister_Hope",
+          // Telegram: "https://t.me/Mister_Hope",
+        },
+      },
+    },
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -24,7 +53,7 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "默认页脚",
+  footer: "中国平台工程官方社区",
 
   displayFooter: true,
 
@@ -39,16 +68,20 @@ export default hopeTheme({
     editLink: "在 GitHub 上编辑此页",
   },
 
+  
   plugins: {
     // You should generate and use your own comment service
     comment: {
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
+      repo: "cit965/platform-discuss",
+      repoId: "R_kgDOKukSNA",
       category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      categoryId: "DIC_kwDOKukSNM4CbHWF",
     },
 
+    blog: {
+      excerptLength: 0,
+    },
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
