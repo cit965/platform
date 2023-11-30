@@ -129,3 +129,7 @@ TF_LOG=TRACE terraform plan
 ```shell
 TF_LOG=TRACE TF_LOG_PATH=trace.txt terraform plan
 ```
+
+## 未完待续
+
+https://github.com/cit965/terraform-provider-hashicups/pull/new/course-03
