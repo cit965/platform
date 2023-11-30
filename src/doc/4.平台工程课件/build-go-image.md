@@ -241,3 +241,7 @@ docker-gs-ping                   latest    7f153fbcc0a8   6 minutes ago   1.11GB
 docker-gs-ping                   v1.0      7f153fbcc0a8   6 minutes ago   1.11GB
 ...
 ```
+
+## ref
+
+https://docs.docker.com/language/golang/build-images/#build-the-image
