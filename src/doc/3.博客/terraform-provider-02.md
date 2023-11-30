@@ -287,3 +287,7 @@ without changing any real infrastructure.
 Note: You didn't use the -out option to save this plan, so Terraform can't
 guarantee to take exactly these actions if you run "terraform apply" now.
 ```
+
+## 未完待续 
+
+代码：  https://github.com/cit965/terraform-provider-hashicups/pull/new/course-02
