@@ -1,5 +1,5 @@
 ---
-title: 编写 terraform provider - 03
+title: 编写 terraform provider - 04
 icon: circle-info
 ---
 
@@ -546,3 +546,7 @@ api_1  | 2021-07-22T10:26:51.195Z [INFO]  Handle Orders | CreateOrder
 ```shell
 curl -X GET  -H "Authorization: ${HASHICUPS_TOKEN}" localhost:19090/orders/1
 ```
+
+## 代码
+
+https://github.com/cit965/terraform-provider-hashicups/tree/course-04
