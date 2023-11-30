@@ -1,5 +1,5 @@
 ---
-title: 手册
+title: 平台工程
 icon: circle-info
 ---
 
