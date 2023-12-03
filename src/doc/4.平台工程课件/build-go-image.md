@@ -6,7 +6,7 @@ icon: circle-info
 
 ## 概述
 
-在本教程中，你将生成一个容器映像。该映像包括运行应用程序所需的一切 - 编译的应用程序二进制文件、运行时、库以及应用程序所需的所有其他资源。
+在本教程中，你将生成一个容器映像。该映像包括运行应用程序所需的一切：编译的应用程序二进制文件、运行时、库以及应用程序所需的所有其他资源。
 
 ## 前置条件
 
@@ -152,13 +152,13 @@ COPY *.go ./
 
 此 COPY 命令使用通配符将主机上当前目录（所在的 Dockerfile 目录）中扩展 .go 名的所有文件复制到映像内的当前目录中。
 
+```shell
 RUN CGO_ENABLED=0 GOOS=linux go build -o /docker-gs-ping
+```
 
-这应该是熟悉的。该命令的结果将是一个静态应用程序二进制文件，该二进制文件被命名 docker-gs-ping 并位于您正在构建的映像的文件系统的根目录中。您可以将二进制文件放入该映像中您想要的任何其他位置，根目录在这方面没有特殊意义。使用它来保持文件路径较短以提高可读性非常方便。
+该命令将代码编译成一个二进制文件，该二进制文件被命名 docker-gs-ping 并位于您正在构建的映像的文件系统的根目录中。您可以将二进制文件放入该映像中您想要的任何其他位置。
 
-现在，剩下要做的就是告诉 Docker 在使用镜像启动容器时要运行什么命令。
-
-您可以使用以下 CMD 命令执行此操作：
+现在，剩下要做的就是告诉 Docker 在使用镜像启动容器时要运行什么命令。您可以使用以下 CMD 命令执行此操作：
 
 ```shell
 CMD ["/docker-gs-ping"]
@@ -198,9 +198,9 @@ CMD ["/docker-gs-ping"]
 
 ## 生成映像
 
-现在，您已经创建了 Dockerfile ，从中构建映像。该 docker build 命令从 Dockerfile 和 上下文创建 Docker 映像。生成上下文是位于指定路径或 URL 中的一组文件。Docker 构建过程可以访问上下文中的任何文件。
+现在，您已经创建了 Dockerfile ，让我们来生成镜像。 build context 是位于指定路径或 URL 中的一组文件。Docker 构建过程可以访问context中的任何文件,在这里我们用 . 来标识当前 context 为同级目录。
 
-build 命令可以选择采用标志 --tag 。此标志用于使用字符串值标记图像，该值易于人类阅读和识别。如果不传递 ， --tag Docker 将用作 latest 默认值
+build 命令可以选择采用标志 --tag 。此标志用于使用字符串值标记图像，如果不传递 ， --tag Docker 将用作 latest 默认值
 
 构建您的第一个 Docker 映像。
 
@@ -219,19 +219,17 @@ docker-gs-ping                   latest    7f153fbcc0a8   2 minutes ago   1.11GB
 ...
 ```
 
-## 标记图像
+## 给镜像打 tag
 
-映像名称由以斜杠分隔的名称组件组成。名称组件可以包含小写字母、数字和分隔符。分隔符定义为句点、一个或两个下划线或一个或多个破折号。名称组件不能以分隔符开头或结尾。
+镜像名称由以斜杠分隔的名称组件组成。名称组件可以包含小写字母、数字和分隔符。分隔符定义为句点、一个或两个下划线或一个或多个破折号。名称组件不能以分隔符开头或结尾。
 
-映像由清单和层列表组成。简单来说，标签指向这些工件的组合。您可以为图像设置多个标签，事实上，大多数图像都有多个标签。为您构建的映像创建第二个标签，并查看其图层。
-
-使用 docker image tag （或 docker tag 速记）命令为映像创建新标签。此命令采用两个参数;第一个参数是源图像，第二个参数是要创建的新标记。以下命令为您构建的 docker-gs-ping:latest 创建一个新 docker-gs-ping:v1.0 标签：
+您可以为图像设置多个 tag，事实上，大多数图像都有多个标签。为您构建的镜像打第二个 tag 。使用 docker image tag （或 docker tag 速记）命令为镜像创建新标签。此命令采用两个参数;第一个参数是源图像，第二个参数是要创建的新标记。以下命令为您构建的 docker-gs-ping:latest 创建一个新 docker-gs-ping:v1.0 标签：
 
 ```shell
 docker image tag docker-gs-ping:latest docker-gs-ping:v1.0
 ```
 
-现在再次运行该 
+现在再次运行查看本地镜像命令，你会看到 tag = v1.0 的镜像。
 
 ```shell
 docker image ls
@@ -242,6 +240,12 @@ docker-gs-ping                   v1.0      7f153fbcc0a8   6 minutes ago   1.11GB
 ...
 ```
 
-## ref
 
-https://docs.docker.com/language/golang/build-images/#build-the-image
+
+<br>
+
+---
+
+![扫码加小助手微信，拉你进技术交流群🔥](https://raw.githubusercontent.com/mouuii/picture/master/weichat.jpg#pic_center =40%x)
+
+<p style="text-align: center;font-size: 10px;;color:#566B95">我是南哥，日常分享高质量文章、架构设计、前沿资讯，加微信拉粉丝交流群，和大家交流！</p>
