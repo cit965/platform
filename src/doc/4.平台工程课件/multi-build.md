@@ -25,16 +25,11 @@ Docker Build 不仅仅是一个构建镜像的命令，也不仅仅是打包代�
 
 |  操作说明 |  描述 |
 | --- | --- |
-| [`FROM <image>`](https://docs.docker.com/engine/reference/builder/#from) |   
-定义镜像的基础。 |
-| [`RUN <command>`](https://docs.docker.com/engine/reference/builder/#run) |   
-在当前镜像之上的新层中执行任何命令并提交结果。 `RUN` 还有一个用于运行命令的 shell 形式。 |
-| [`WORKDIR <directory>`](https://docs.docker.com/engine/reference/builder/#workdir) |   
-设置其后面的任何 `RUN` 、 `CMD` 、 `ENTRYPOINT` 、 `COPY` 和 `ADD` 指令的工作目录在 Dockerfile 中。 |
-| [`COPY <src> <dest>`](https://docs.docker.com/engine/reference/builder/#copy) |   
-从 `<src>` 复制新文件或目录，并将它们添加到容器文件系统的路径 `<dest>` 中。 |
-| [`CMD <command>`](https://docs.docker.com/engine/reference/builder/#cmd) |   
-允许您定义基于此镜像启动容器后运行的默认程序。每个 Dockerfile 只有一个 `CMD` ，当存在多个时，仅考虑最后一个 `CMD` 实例。 |
+| [`FROM <image>`](https://docs.docker.com/engine/reference/builder/#from) | 定义镜像的基础。 |
+| [`RUN <command>`](https://docs.docker.com/engine/reference/builder/#run) |   在当前镜像之上的新层中执行任何命令并提交结果。 `RUN` 还有一个用于运行命令的 shell 形式。 |
+| [`WORKDIR <directory>`](https://docs.docker.com/engine/reference/builder/#workdir) |   设置其后面的任何 `RUN` 、 `CMD` 、 `ENTRYPOINT` 、 `COPY` 和 `ADD` 指令的工作目录在 Dockerfile 中。 |
+| [`COPY <src> <dest>`](https://docs.docker.com/engine/reference/builder/#copy) |   从 `<src>` 复制新文件或目录，并将它们添加到容器文件系统的路径 `<dest>` 中。 |
+| [`CMD <command>`](https://docs.docker.com/engine/reference/builder/#cmd) |   允许您定义基于此镜像启动容器后运行的默认程序。每个 Dockerfile 只有一个 `CMD` ，当存在多个时，仅考虑最后一个 `CMD` 实例。 |
 
   
 Dockerfile 是镜像构建的重要输入，可以根据您的独特配置促进自动化的多层镜像构建。 Dockerfile 可以从简单开始，然后根据您的需求进行扩展，以支持更复杂的场景。
