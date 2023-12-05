@@ -246,6 +246,6 @@ docker-gs-ping                   v1.0      7f153fbcc0a8   6 minutes ago   1.11GB
 
 ---
 
-![扫码加小助手微信，拉你进技术交流群🔥](https://raw.githubusercontent.com/mouuii/picture/master/weichat.jpg#pic_center =40%x)
+![扫码加小助手微信，拉你进技术交流群🔥](https://raw.githubusercontent.com/mouuii/picture/master/weichat.jpg)
 
 <p style="text-align: center;font-size: 10px;;color:#566B95">我是南哥，日常分享高质量文章、架构设计、前沿资讯，加微信拉粉丝交流群，和大家交流！</p>
