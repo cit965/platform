@@ -1,5 +1,5 @@
 ---
-title: helm使用
+title: helm教程-01-使用
 icon: circle-info
 ---
 
@@ -236,3 +236,7 @@ release "mysql-1612624192" uninstalled
 ```
 
 这将从 Kubernetes 中卸载 mysql-1612624192 ，这将删除与版本相关的所有资源以及版本历史记录。
+--- 
+![扫码加小助手微信，拉你进技术交流群🔥](https://raw.githubusercontent.com/mouuii/picture/master/weichat.jpg)
+
+<p style="text-align: center;font-size: 10px;;color:#566B95">我是南哥，日常分享高质量文章、架构设计、前沿资讯，加微信拉粉丝交流群，和大家交流！</p>
